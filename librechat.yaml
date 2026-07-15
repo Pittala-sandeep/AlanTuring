@@ -2,18 +2,10 @@ version: 1.3.13
 cache: true
 endpoints:
   custom:
-    - name: 'Team-01-Alpha'
-      apiKey: '${TEAM_01_ALPHA_KEY}'
-      baseURL: 'https://team1-endpoint.com/v1'
+    - name: 'Test-OpenAI'
+      apiKey: '${TEST_OPENAI_KEY}'
+      baseURL: 'https://api.openai.com/v1'
       models:
         default: ['gpt-3.5-turbo']
       titleConvo: true
-
-    - name: 'Team-02-Beta'
-      apiKey: '${TEAM_02_BETA_KEY}'
-      baseURL: 'https://team2-endpoint.com/v1'
-      models:
-        default: ['gpt-3.5-turbo']
-      titleConvo: true
-
     # ... one block per participant, repeated 50-60 times
