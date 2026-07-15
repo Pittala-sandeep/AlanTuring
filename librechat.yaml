@@ -12,6 +12,6 @@ endpoints:
       apiKey: '${TEST_Groq_KEY}'
       baseURL: 'https://api.groq.com/openai/v1'
       models:
-        default: ['Qroq-3.5-turbo']
+        default: ['llama-3.3-70b-versatile']
       titleConvo: true
     # ... one block per participant, repeated 50-60 times
